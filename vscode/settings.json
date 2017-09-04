@@ -1,5 +1,11 @@
 {
-    "window.menuBarVisibility": "toggle",
-    "workbench.welcome.enabled": false,
-    "editor.renderWhitespace": "boundary"
+    "editor.renderWhitespace": "boundary",
+    "editor.minimap.showSlider": "always",
+    "editor.cursorBlinking": "phase",
+    "editor.renderControlCharacters": true,
+    "workbench.editor.showTabs": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "window.restoreWindows": "none",
+    "window.menuBarVisibility": "toggle"
 }
