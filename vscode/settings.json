@@ -1,0 +1,5 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.welcome.enabled": false,
+    "editor.renderWhitespace": "boundary"
+}
