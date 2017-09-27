@@ -88,6 +88,7 @@ moveMap.bind(keyboard, "insert", voteYes);
 moveMap.bind(keyboard, "delete", voteNo);
 moveMap.bind(keyboard, "lshift", useDisc);
 moveMap.bind(keyboard, "lcontrol", useChaingun);
+moveMap.bind(keyboard, "ctrl q", tossRepairKit);
 moveMap.bind(mouse0, "button0", mouseFire);
 moveMap.bind(mouse0, "button1", mouseJet);
 moveMap.bind(mouse0, "xaxis", S, 0.403508, yaw);
