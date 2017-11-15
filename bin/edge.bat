@@ -1,1 +1,1 @@
-start microsoft-edge:
+start "" "microsoft-edge:%*"
