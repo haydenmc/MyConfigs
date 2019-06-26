@@ -1,1 +1,1 @@
-cd %LocalAppData%\Discord\app* && ..\Update.exe --processStart Discord.exe
+cd "%PROGRAMFILES(X86)%\Microsoft\Edge Dev\Application" && start msedge --profile-directory=Default --app=https://discordapp.com/app
