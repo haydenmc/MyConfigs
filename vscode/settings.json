@@ -8,5 +8,7 @@
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "window.menuBarVisibility": "toggle",
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "Horizon",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace"
 }
