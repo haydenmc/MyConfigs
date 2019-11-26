@@ -29,6 +29,16 @@
             "fontFace": "Cascadia Code"
         },
         {
+            // Make changes here to the cmd.exe profile
+            "guid": "{fd44b0bc-a3ae-4ea0-b19d-08da1c83980e}",
+            "name": "VS2019 Dev Prompt",
+            "commandline": "%comspec% /k \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\VsDevCmd.bat\"",
+            "hidden": false,
+            "useAcrylic": true,
+            "fontFace": "Cascadia Code",
+            "colorScheme": "Horizon Clone"
+        },
+        {
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
             "hidden": false,
             "name": "Azure Cloud Shell",
