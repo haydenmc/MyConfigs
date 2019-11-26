@@ -40,7 +40,7 @@
     "schemes": [
         {
             "name": "Horizon Clone",
-            "foreground": "#FAC29A",
+            "foreground": "#FDF0ED",
             "background": "#1C1E26",
             "black": "#16161C",
             "red": "#E95678",
