@@ -31,8 +31,8 @@
         {
             // Make changes here to the cmd.exe profile
             "guid": "{fd44b0bc-a3ae-4ea0-b19d-08da1c83980e}",
-            "name": "VS2019 Dev Prompt",
-            "commandline": "%comspec% /k \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\Tools\\VsDevCmd.bat\"",
+            "name": "VS2019 Dev Prompt (x64)",
+            "commandline": "%comspec% /k \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat\"",
             "hidden": false,
             "useAcrylic": true,
             "fontFace": "Cascadia Code",
