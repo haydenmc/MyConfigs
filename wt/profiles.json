@@ -1,0 +1,77 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+
+    "profiles":
+    [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "hidden": false,
+            "useAcrylic": true,
+            "fontFace": "Cascadia Code",
+            "colorScheme": "Horizon Clone"
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": false,
+            "useAcrylic": true,
+            "fontFace": "Cascadia Code"
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{fd44b0bc-a3ae-4ea0-b19d-08da1c83980e}",
+            "name": "VS2019 Dev Prompt (x64)",
+            "commandline": "%comspec% /k \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat\"",
+            "hidden": false,
+            "useAcrylic": true,
+            "fontFace": "Cascadia Code",
+            "colorScheme": "Horizon Clone"
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [
+        {
+            "name": "Horizon Clone",
+            "foreground": "#FDF0ED",
+            "background": "#1C1E26",
+            "black": "#16161C",
+            "red": "#E95678",
+            "green": "#29D398",
+            "yellow": "#FAB795",
+            "blue": "#26BBD9",
+            "purple": "#EE64AE",
+            "cyan": "#59E3E3",
+            "white": "#CCCCCC",
+            "brightBlack": "#6C6F93",
+            "brightRed": "#EC6A88",
+            "brightGreen": "#3FDAA4",
+            "brightYellow": "#FBC3A7",
+            "brightBlue": "#3FC6DE",
+            "brightPurple": "#F075B7",
+            "brightCyan": "#6BE6E6",
+            "brightWhite": "#F2F2F2"
+        }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
