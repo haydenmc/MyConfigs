@@ -10,5 +10,9 @@
     "window.menuBarVisibility": "toggle",
     "git.enableSmartCommit": true,
     "workbench.colorTheme": "Horizon",
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace"
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontLigatures": true,
+    "editor.rulers": [80, 120]
 }
