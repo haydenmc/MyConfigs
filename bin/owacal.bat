@@ -1,1 +1,1 @@
-start msedge --profile-directory=Default --app=https://outlook.office.com/owa/?path=/calendar
+start msedge --profile-directory="Profile 1" --app=https://outlook.office.com/owa/?path=/calendar

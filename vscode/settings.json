@@ -3,13 +3,11 @@
     "editor.minimap.showSlider": "always",
     "editor.cursorBlinking": "phase",
     "editor.renderControlCharacters": true,
-    "workbench.editor.showTabs": false,
     "workbench.editor.enablePreview": false,
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "window.menuBarVisibility": "toggle",
     "git.enableSmartCommit": true,
-    "workbench.colorTheme": "Horizon",
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
     "window.zoomLevel": 0,
     "explorer.confirmDragAndDrop": false,
@@ -21,7 +19,12 @@
     ],
     "remote.SSH.remotePlatform": {
         "hayden-jetson": "linux",
-        "hayden-jetson-dev": "linux"
+        "hayden-jetson-dev": "linux",
+        "stream.hayden.fyi": "linux",
+        "ftl-dev": "linux"
     },
-    "liquid.format": true
+    "liquid.format": true,
+    "workbench.editor.tabSizing": "shrink",
+    "zenMode.hideTabs": false,
+    "mesonbuild.configureOnOpen": true
 }

@@ -1,1 +1,1 @@
-start msedge --profile-directory=Default --app=https://teams.microsoft.com/
+start msedge --profile-directory="Profile 1" --app=https://teams.microsoft.com/
