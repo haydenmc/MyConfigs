@@ -1,1 +1,1 @@
-start "" "microsoft-edge:%*"
+start msedge --profile-directory="Default"
