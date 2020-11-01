@@ -1,0 +1,1 @@
+code --folder-uri vscode-remote://ssh-remote+ftl-dev/home/hayden/Source/janus-ftl-plugin
