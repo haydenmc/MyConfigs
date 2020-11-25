@@ -26,5 +26,6 @@
     "liquid.format": true,
     "workbench.editor.tabSizing": "shrink",
     "zenMode.hideTabs": false,
-    "mesonbuild.configureOnOpen": true
+    "mesonbuild.configureOnOpen": true,
+    "plantuml.java": "C:\\Program Files\\Java\\jre1.8.0_271\\bin\\java.exe"
 }
