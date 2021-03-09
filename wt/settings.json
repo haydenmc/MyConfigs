@@ -32,7 +32,8 @@
             "acrylicOpacity": 0.75,
             "fontFace": "Cascadia Code",
             "colorScheme": "One Half Dark",
-            "background": "#770077"
+            "background": "#770077",
+            "bellStyle": "none"
         },
         "list":
         [
@@ -61,6 +62,12 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{77bcb58a-f061-428a-9285-216fcb5a8979}",
+                "name": "Windows PowerShell (x86)",
+                "commandline": "%SystemRoot%\\syswow64\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "hidden": false
             }
         ]
     },
