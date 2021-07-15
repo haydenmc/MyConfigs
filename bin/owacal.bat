@@ -1,1 +1,2 @@
-start msedge --profile-directory="Profile 1" --app=https://outlook.office.com/owa/?path=/calendar
+start "" /MIN pwsh.exe -ExecutionPolicy Bypass -File %~dp0\Start-Edge.ps1 -ProfileType Work ^
+    -AppUrl "https://outlook.office.com/owa/?path=/calendar"
