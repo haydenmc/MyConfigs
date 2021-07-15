@@ -39,7 +39,10 @@ else
 
 if (!$targetProfile)
 {
-    throw "Could not find personal Edge profile"
+    Write-Host -ForegroundColor Yellow ("Could not find requested Edge profile, " + `
+        "falling back to first available profile")
+    $targetProfile = $state.profile.info_cache.PSObject.Properties | `
+        Select-Object -First 1 -ExpandProperty Name
 }
 
 $pathToEdgeExe = Get-ItemPropertyValue `
