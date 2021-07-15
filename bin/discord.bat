@@ -1,1 +1,2 @@
-start msedge --profile-directory=Default --app=https://discordapp.com/app
+start "" /MIN pwsh.exe -ExecutionPolicy Bypass -File %~dp0\Start-Edge.ps1 -ProfileType Personal ^
+    -AppUrl "https://discordapp.com/app"

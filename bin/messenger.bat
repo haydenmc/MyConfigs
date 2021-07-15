@@ -1,1 +1,2 @@
-start msedge --profile-directory=Default --app=https://messenger.com/
+start "" /MIN pwsh.exe -ExecutionPolicy Bypass -File %~dp0\Start-Edge.ps1 -ProfileType Work ^
+    -AppUrl "https://messenger.com/"
