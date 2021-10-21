@@ -74,6 +74,12 @@
                 "name": "Windows PowerShell (x86)",
                 "commandline": "%SystemRoot%\\syswow64\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "hidden": false
+            },
+            {
+                "guid": "{a93f6bd8-55fb-4a5f-92a2-56d2e40320e9}",
+                "name": "MSVC 2022 x64",
+                "commandline": "%comspec% /k \"\"%PROGRAMFILES%\\Microsoft Visual Studio\\2022\\Preview\\VC\\Auxiliary\\Build\\vcvars64.bat\" && pwsh.exe\"",
+                "hidden": false
             }
         ]
     },
