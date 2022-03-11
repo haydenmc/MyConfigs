@@ -1,2 +1,1 @@
-start "" /MIN pwsh.exe -ExecutionPolicy Bypass -File %~dp0\Start-Edge.ps1 -ProfileType Personal ^
-    -AppUrl "https://todo.microsoft.com/"
+start msedge.exe --app="https://todo.microsoft.com/"
