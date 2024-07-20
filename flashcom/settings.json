@@ -1,0 +1,134 @@
+{
+    "commandTree": [
+        {
+            "name": "Comms",
+            "key": "C",
+            "children": [
+                {
+                    "name": "WarmItUp",
+                    "key": "W",
+                    "type": "shellExecute",
+                    "executeFile": "msedge.exe",
+                    "executeParameters": "--app=\"https://element.warmitup.chat\""
+                },
+                {
+                    "name": "Email",
+                    "key": "E",
+                    "type": "shellExecute",
+                    "executeFile": "msedge.exe",
+                    "executeParameters": "--app=\"https://outlook.live.com/\""
+                },
+                {
+                    "name": "Discord",
+                    "key": "D",
+                    "type": "shellExecute",
+                    "executeFile": "msedge.exe",
+                    "executeParameters": "--app=\"https://discord.com/app\""
+                }
+            ]
+        },
+        {
+            "name": "Dev",
+            "key": "D",
+            "children": [
+                {
+                    "name": "Terminal",
+                    "key": "T",
+                    "type": "shellExecute",
+                    "executeFile": "wt.exe"
+                },
+                {
+                    "name": "Code",
+                    "key": "C",
+                    "type": "shellExecute",
+                    "executeFile": "code"
+                },
+                {
+                    "name": "Visual Studio",
+                    "key": "V",
+                    "type": "shellExecute",
+                    "executeFile": "devenv.exe"
+                }
+            ]
+        },
+        {
+            "name": "Web",
+            "key": "W",
+            "children": [
+                {
+                    "name": "Home Assistant",
+                    "key": "A",
+                    "type": "uri",
+                    "uri": "http://192.168.1.3:8123"
+                },
+                {
+                    "name": "Router",
+                    "key": "R",
+                    "type": "uri",
+                    "uri": "http://192.168.1.1"
+                },
+                {
+                    "name": "Octoprint",
+                    "key": "E",
+                    "type": "uri",
+                    "uri": "http://192.168.2.160"
+                },
+                {
+                    "name": "Todo",
+                    "key": "T",
+                    "type": "uri",
+                    "uri": "https://todo.microsoft.com"
+                }
+            ]
+        },
+        {
+            "name": "Music",
+            "key": "S",
+            "children": [
+                {
+                    "name": "Spotify",
+                    "key": "S",
+                    "type": "shellExecute",
+                    "executeFile": "msedge.exe",
+                    "executeParameters": "--app=\"https://open.spotify.com\""
+                }
+            ]
+        },
+        {
+            "name": "Reference",
+            "key": "R",
+            "children": [
+                {
+                    "name": "Obsidian",
+                    "key": "B",
+                    "type": "uri",
+                    "uri": "obsidian://open?vault=Personal"
+                },
+                {
+                    "name": "OneNote",
+                    "key": "W",
+                    "type": "shellExecute",
+                    "executeFile": "onenote.exe"
+                }
+            ]
+        },
+        {
+            "name": "Gaming",
+            "key": "G",
+            "children": [
+                {
+                    "name": "Steam",
+                    "key": "S",
+                    "type": "uri",
+                    "uri": "steam:"
+                },
+                {
+                    "name": "Xbox",
+                    "key": "X",
+                    "type": "uri",
+                    "uri": "xbox:"
+                }
+            ]
+        }
+    ]
+}
