@@ -12,6 +12,12 @@
                     "executeParameters": "--app=\"https://element.warmitup.chat\""
                 },
                 {
+                    "name": "Mumble",
+                    "key": "V",
+                    "type": "shellExecute",
+                    "executeFile": "C:\\Program Files\\Mumble\\client\\mumble.exe"
+                },
+                {
                     "name": "Email",
                     "key": "E",
                     "type": "shellExecute",
@@ -91,6 +97,12 @@
                     "type": "shellExecute",
                     "executeFile": "msedge.exe",
                     "executeParameters": "--app=\"https://open.spotify.com\""
+                },
+                {
+                    "name": "foobar2000",
+                    "key": "F",
+                    "type": "aumid",
+                    "aumid": "Resolute.foobar2000modern_cg7j1awqsza28!foobar2000"
                 }
             ]
         },
