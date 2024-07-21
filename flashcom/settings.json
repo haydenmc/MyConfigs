@@ -1,5 +1,5 @@
 {
-    "commandTree": [
+    "commands": [
         {
             "name": "Comms",
             "key": "C",
@@ -141,6 +141,12 @@
                     "uri": "xbox:"
                 }
             ]
+        },
+        {
+            "name": "Edge",
+            "key": "E",
+            "type": "shellExecute",
+            "executeFile": "msedge.exe"
         }
     ]
 }
