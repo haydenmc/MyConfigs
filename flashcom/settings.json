@@ -121,6 +121,12 @@
                     "key": "W",
                     "type": "shellExecute",
                     "executeFile": "onenote.exe"
+                },
+                {
+                    "name": "KeePassXC",
+                    "key": "A",
+                    "type": "shellExecute",
+                    "executeFile": "C:\\Program Files\\KeePassXC\\KeePassXC.exe"
                 }
             ]
         },
