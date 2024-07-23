@@ -62,6 +62,12 @@
             "key": "W",
             "children": [
                 {
+                    "name": "Browser",
+                    "key": "B",
+                    "type": "shellExecute",
+                    "executeFile": "msedge.exe"
+                },
+                {
                     "name": "Home Assistant",
                     "key": "A",
                     "type": "uri",
@@ -149,10 +155,30 @@
             ]
         },
         {
-            "name": "Edge",
-            "key": "E",
-            "type": "shellExecute",
-            "executeFile": "msedge.exe"
+            "name": "Ford",
+            "key": "F",
+            "children": [
+                {
+                    "name": "Email",
+                    "key": "E",
+                    "type": "shellExecute",
+                    "executeFile": "msedge.exe",
+                    "executeParameters": "--app=\"https://outlook.office.com/owa/\""
+                },
+                {
+                    "name": "Slack",
+                    "key": "S",
+                    "type": "shellExecute",
+                    "executeFile": "msedge.exe",
+                    "executeParameters": "--app=\"https://app.slack.com/client/\""
+                },
+                {
+                    "name": "WebEx",
+                    "key": "W",
+                    "type": "uri",
+                    "uri": "webex:"
+                }
+            ]
         }
     ]
 }
