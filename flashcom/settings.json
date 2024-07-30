@@ -89,12 +89,12 @@
                     "name": "Todo",
                     "key": "T",
                     "type": "uri",
-                    "uri": "https://todo.microsoft.com"
+                    "uri": "https://to-do.live.com/tasks/?app&auth_upn=hayden@outlook.com&auth=1"
                 }
             ]
         },
         {
-            "name": "Music",
+            "name": "Media",
             "key": "S",
             "children": [
                 {
@@ -109,6 +109,12 @@
                     "key": "F",
                     "type": "aumid",
                     "aumid": "Resolute.foobar2000modern_cg7j1awqsza28!foobar2000"
+                },
+                {
+                    "name": "OBS Studio",
+                    "key": "B",
+                    "type": "shellExecute",
+                    "executeFile": "C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe"
                 }
             ]
         },
@@ -133,6 +139,12 @@
                     "key": "A",
                     "type": "shellExecute",
                     "executeFile": "C:\\Program Files\\KeePassXC\\KeePassXC.exe"
+                },
+                {
+                    "name": "Notepad",
+                    "key": "N",
+                    "type": "shellExecute",
+                    "executeFile": "notepad.exe"
                 }
             ]
         },

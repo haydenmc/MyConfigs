@@ -1,5 +1,3 @@
-#Requires -RunAsAdministrator
-
 # Make sure the config directory exists
 if (!(Test-Path "$env:LOCALAPPDATA\Packages\164HaydenMcAfee.FlashCom_nqvw84mb3bsjc\LocalState"))
 {
@@ -13,4 +11,6 @@ if (Test-Path "$env:LOCALAPPDATA\Packages\164HaydenMcAfee.FlashCom_nqvw84mb3bsjc
 }
 
 # Set up symlink to repo
-& cmd.exe /C "mklink `"%LOCALAPPDATA%\Packages\164HaydenMcAfee.FlashCom_nqvw84mb3bsjc\LocalState\settings.json`" `"$PSScriptRoot\settings.json`""
+New-Item -ItemType SymbolicLink `
+    -Path "$env:LOCALAPPDATA\Packages\164HaydenMcAfee.FlashCom_nqvw84mb3bsjc\LocalState\settings.json"`
+    -Value "$PSScriptRoot\settings.json"
