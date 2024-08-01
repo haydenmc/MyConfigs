@@ -1,6 +1,24 @@
 {
     "commands": [
         {
+            "name": "3D",
+            "key": "3",
+            "children": [
+                {
+                    "name": "FreeCAD",
+                    "key": "F",
+                    "type": "shellExecute",
+                    "executeFile": "C:\\Program Files\\FreeCAD 0.21\\bin\\FreeCAD.exe"
+                },
+                {
+                    "name": "PrusaSlicer",
+                    "key": "S",
+                    "type": "shellExecute",
+                    "executeFile": "C:\\Program Files\\Prusa3D\\PrusaSlicer\\prusa-slicer.exe"
+                }
+            ]
+        },
+        {
             "name": "Comms",
             "key": "C",
             "children": [
