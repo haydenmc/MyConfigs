@@ -1,1 +1,0 @@
-start msedge.exe --app="https://outlook.com/ford.com"

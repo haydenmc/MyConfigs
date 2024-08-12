@@ -1,1 +1,0 @@
-start msedge.exe --app="https://open.spotify.com/"

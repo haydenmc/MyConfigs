@@ -1,1 +1,0 @@
-start msedge.exe --app="https://web.telegram.org/"
