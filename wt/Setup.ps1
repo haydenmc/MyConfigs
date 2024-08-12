@@ -1,5 +1,3 @@
-#Requires -RunAsAdministrator
-
 # Make sure the config directory exists
 if (!(Test-Path "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"))
 {
@@ -13,4 +11,6 @@ if (Test-Path "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbw
 }
 
 # Set up symlink to repo
-& cmd.exe /C "mklink `"%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json`" `"$PSScriptRoot\settings.json`""
+New-Item -ItemType SymbolicLink `
+    -Path "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"`
+    -Value "$PSScriptRoot\settings.json"
