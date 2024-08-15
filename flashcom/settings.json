@@ -59,7 +59,8 @@
                     "name": "Terminal",
                     "key": "T",
                     "type": "shellExecute",
-                    "executeFile": "wt.exe"
+                    "executeFile": "wt.exe",
+                    "executeParameters": "--startingDirectory S:\\Source"
                 },
                 {
                     "name": "Code",
