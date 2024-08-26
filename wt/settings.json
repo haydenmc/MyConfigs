@@ -54,7 +54,7 @@
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
+                "hidden": true,
                 "name": "cmd"
             },
             {
@@ -72,14 +72,15 @@
             {
                 "commandline": "%SystemRoot%\\syswow64\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{77bcb58a-f061-428a-9285-216fcb5a8979}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Windows PowerShell (x86)"
             },
             {
-                "commandline": "%comspec% /k \"\"%PROGRAMFILES%\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\" && pwsh.exe\"",
-                "guid": "{a93f6bd8-55fb-4a5f-92a2-56d2e40320e9}",
+                "commandline": "pwsh.exe -NonInteractive -NoExit -Command \"&{Import-Module 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell ade10486 -SkipAutomaticLocation}\"",
+                "guid": "{c8806320-6d66-4552-ab6b-c3a9822798f1}",
                 "hidden": false,
-                "name": "MSVC 2022 x64"
+                "name": "MSVC 2022 x64",
+                "startingDirectory": "S:\\Source"
             }
         ]
     },
