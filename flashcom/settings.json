@@ -182,6 +182,18 @@
                     "key": "X",
                     "type": "uri",
                     "uri": "xbox:"
+                },
+                {
+                    "name": "Games",
+                    "key": "G",
+                    "children": [
+                        {
+                            "name": "Xonotic",
+                            "key": "X",
+                            "type": "shellExecute",
+                            "executeFile": "C:\\Users\\Hayden\\Apps\\Xonotic\\xonotic.exe"
+                        }
+                    ]
                 }
             ]
         },
