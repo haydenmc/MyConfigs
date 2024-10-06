@@ -1,4 +1,6 @@
 {
+    "showStartupNotification": false,
+    "use24HourClock": true,
     "commands": [
         {
             "name": "3D",
@@ -8,7 +10,7 @@
                     "name": "FreeCAD",
                     "key": "F",
                     "type": "shellExecute",
-                    "executeFile": "C:\\Program Files\\FreeCAD 0.21\\bin\\FreeCAD.exe"
+                    "executeFile": "C:\\Program Files\\FreeCAD 1.0\\bin\\FreeCAD.exe"
                 },
                 {
                     "name": "PrusaSlicer",
@@ -67,6 +69,13 @@
                     "type": "shellExecute",
                     "executeFile": "wt.exe",
                     "executeParameters": "--startingDirectory S:\\Source"
+                },
+                {
+                    "name": "MSVC Dev Prompt",
+                    "key": "D",
+                    "type": "shellExecute",
+                    "executeFile": "wt.exe",
+                    "executeParameters": "-p \"MSVC 2022 x64\""
                 },
                 {
                     "name": "Code",
@@ -140,6 +149,12 @@
                     "key": "B",
                     "type": "shellExecute",
                     "executeFile": "C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe"
+                },
+                {
+                    "name": "Handbrake",
+                    "key": "H",
+                    "type": "shellExecute",
+                    "executeFile": "C:\\Program Files\\HandBrake\\HandBrake.exe"
                 }
             ]
         },
