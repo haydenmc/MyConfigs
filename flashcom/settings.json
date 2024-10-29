@@ -243,6 +243,18 @@
                     "uri": "webex:"
                 }
             ]
+        },
+        {
+            "name": "Tools",
+            "key": "T",
+            "children": [
+                {
+                    "name": "OpenVPN",
+                    "key": "V",
+                    "type": "shellExecute",
+                    "executeFile": "C:\\Program Files\\OpenVPN\\bin\\openvpn-gui.exe"
+                }
+            ]
         }
     ]
 }
