@@ -78,7 +78,7 @@
                 "name": "Windows PowerShell (x86)"
             },
             {
-                "commandline": "pwsh.exe -Interactive -NoExit -Command \"&{Import-Module 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell ade10486 -SkipAutomaticLocation}\"",
+                "commandline": "pwsh.exe -Interactive -NoExit -Command \"&{Import-Module 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell -VsInstallPath 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community' -SkipAutomaticLocation}\"",
                 "guid": "{c8806320-6d66-4552-ab6b-c3a9822798f1}",
                 "hidden": false,
                 "name": "MSVC 2022 x64",
